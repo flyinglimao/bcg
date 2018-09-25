@@ -64,7 +64,6 @@ void Keyboard(unsigned char key, int x, int y) {
 }
 
 void Mouse(int btn, int state, int x, int y) {
-	printf("%d", btn);
 	switch (btn) {
 	case GLUT_LEFT_BUTTON:
 		printf("%d", btn);
